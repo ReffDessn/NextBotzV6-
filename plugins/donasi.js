@@ -12,12 +12,12 @@ let handler = async (m, { conn, usedPrefix }) => {
   let vn = `./mp3/Play-Date-Melanie-Martinez-Cover-by-#U90a2#U51ef#U60a6XKY.opus`
   conn.sendButton(m.chat, `
 ┏━ꕥ〔 *Donasi • Dana* 〕ꕥ━⬣
-┃✾ Gopay  [082214729677]
-┃✾ Dana  [082214729677]
-┃✾ Saweria  [https://saweria.co/PutraModz]
+┃✾ OVO  [082350496532]
+┃✾ Dana  [082350496532]
+┃✾ Saweria  [https://saweria.co/jbyannstore]
 ┗━━━━ꕥ
 ┏━━ꕥ〔 *NOTE* 〕ꕥ━⬣
-┃ Ingin donasi? Wa.me/6282214729677
+┃ Ingin donasi? Wa.me/62823504965320
 ┃ _Hasil donasi akan digunakan buat sewa_
 ┃ _atau beli *RDP/VPS* agar bot bisa jalan_
 ┃ _24jam tanpa kendala_
@@ -25,7 +25,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 `.trim(), wm, [['Owner',`/owner`]],m) // Tambah sendiri kalo mau
 conn.sendFile(m.chat, vn, 'haori.mp3', null, m, true, {
 type: 'audioMessage', 
-ptt: true, contextInfo:{ externalAdReply: { title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`, body: `AMELIA PUTRI SEPTIANY`, sourceUrl: 'https://youtu.be/dTNrtQagzmc', thumbnail: await (await fetch('https://telegra.ph/file/d900eda2968d00c2c501a.jpg')).buffer(),}} 
+ptt: true, contextInfo:{ externalAdReply: { title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`, body: `AMELIA PUTRI SEPTIANY`, sourceUrl: 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq', thumbnail: await (await fetch('https://telegra.ph/file/fa7624389b15f3ca8b27c.jpg')).buffer(),}} 
      }) 
 }
 handler.command = /^(donasi|dns)$/i

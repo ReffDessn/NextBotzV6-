@@ -203,11 +203,11 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
 contextInfo: { externalAdReply :{ showAdAttribution: true,
                         mediaUrl: '',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ PutraModz ×፝֟͜×`,
+                        description: `By Zidann Hznf`,
                         title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ by PutraModz ×፝֟͜×`,          previewType: 0,
+                        body: `Danzz Botz`,          previewType: 0,
                         thumbnail: await (await fetch(pp)).buffer(),
-                        sourceUrl: 'https://youtu.be/dTNrtQagzmc'
+                        sourceUrl: 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
                         
                       }}
 })

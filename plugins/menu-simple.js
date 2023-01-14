@@ -194,20 +194,20 @@ import moment from 'moment-timezone'
       sections
     }
     return conn.sendMessage(m.chat, listMessage, { quoted: fload, mentions: await conn.parseMention(judul)}, m, {
-  'document':{'url':'https://youtu.be/hklv-Ysqqac'},
+  'document':{'url':'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'},
 'mimetype':global.dpdf,
-'fileName':'「 ᴹᴿ᭄ PutraModz ×፝֟͜× 」',
+'fileName':'「 Danzz Botz 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'previewType':'pdf',
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/dTNrtQagzmc',
+                        sourceUrl: 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ PutraModz ×፝֟͜×`,
+                        description: `By Zidan Haznief`,
                         title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ by PutraModz ×፝֟͜×`,          previewType: 0,
+                        body: `Zidannn`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://youtu.be/dTNrtQagzmc'
+                        mediaUrl: 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
                         
                       }}
 })
